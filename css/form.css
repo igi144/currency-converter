@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-size: large;
+    padding: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.form__fieldset {
+    padding: 40px;
+    border-radius: 5px;
+    border-color: teal;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form__labelText {
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+    padding-left: 20px;
+    margin: 0 auto;
+
+}
+
+.form__button {
+    padding-top: 2px;
+    margin-top: 6px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+}
+
+.form__button--count {
+    background-color: teal;
+}
+
+.form__button--count:hover {
+    background-color: hsla(180, 100%, 25%, 80%);
+}
+
+.form__button--reset {
+    background-color: #b82e2e
+}
+
+.form__button--reset:hover {
+    background-color: hsl(0, 91%, 59%)
+}
+
+.form__labelText--value {
+    width: 100%;
+    max-width: 150px;
+
+}
+
+.form__field {
+    background-color: #0000000d;
+    border-radius: 5px;
+    border: solid black;
+    max-width: 130px;
+    margin-left: 5px;
+    height:30px; 
+}
+
+.form__select {
+    width: 100%;
+
+    margin-left: 20px;
+}
+
+.form__select--field {
+    max-width: 130px;
+    text-align: center;
+    margin-left: 34px;
+    border-radius: 5px;
+    border: solid black;
+    height: 30px;
+}

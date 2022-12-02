@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator waluty</title>
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Libre+Franklin:wght@300;400&family=Mukta:wght@400;700&family=PT+Sans:ital@1&display=swap"
+        rel="stylesheet">
+    <script defer src="jss/script.js"></script>
+</head>
+
+<body class="body">
+
+    <form class="js-form form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend"><strong>Kalkulator waluty Euro na PLN</strong></legend>
+            <p>
+                <label for="euro"><span class="form__labelText">Kwota:</span></label>
+                <input class="js-amount form__field" id="euro" name="eurovalue" required type="number" min="0.1"
+                    step="any">
+            </p>
+            <p>
+                <label class="form__select">Waluta</label>
+                    <select class="js-currency form__select--field" name="currency">
+                        <option value="EUR">Euro</option>
+                        <option value="USD">Dolar amerykański</option>
+                        <option value="GBP">Funt brytyjski</option>
+                
+                </select>
+            </p>
+            <label><span class="form__labelText">Przelicznik na PLN:</span></label> <strong
+                class="js-result  form__labelText form__labelText--value ">0</strong>
+
+        </fieldset>
+        <button class="form__button form__button--count">Przelicz</button>
+        <button class="form__button form__button--reset" type="reset">Wyzeruj</button>
+    </form>
+
+</body>
+
+</html>
