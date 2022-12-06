@@ -15,6 +15,7 @@ html {
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Sans', sans-serif;
+    background-image: url("../jpg/img.jpg");
 }
 
 .form__fieldset {
@@ -75,7 +76,7 @@ html {
     border: solid black;
     max-width: 130px;
     margin-left: 5px;
-    height:30px; 
+    height: 30px;
 }
 
 .form__select {
