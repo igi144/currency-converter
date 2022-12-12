@@ -8,7 +8,7 @@ html {
 
 .body {
     font-size: large;
-    padding: 100px;
+    padding: 105px;
     max-width: 600px;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
@@ -16,6 +16,13 @@ html {
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Sans', sans-serif;
     background-image: url("../jpg/img.jpg");
+
+}
+
+.form {
+    padding-top: 150px;
+    padding-right: 50px;
+    
 }
 
 .form__fieldset {
@@ -24,6 +31,7 @@ html {
     border-color: teal;
     width: 100%;
     max-width: 400px;
+    background-color: white;
 }
 
 .form__labelText {
