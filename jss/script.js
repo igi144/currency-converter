@@ -13,10 +13,11 @@
 
             case "GBP":
                 return amount * GBP
-
         }
     };
 
+
+    
     const onFormSubmit = (event) => {
         event.preventDefault();
 
@@ -34,7 +35,21 @@
     const init = () => {
         const formElement = document.querySelector(".js-form");
         formElement.addEventListener("submit", onFormSubmit);
+        formElement.addEventListener("reset", () => {
+            setResultText("");
+       });
+        
     };
 
+    const setResultText = (text) => {
+        const resultElement = document.querySelector(".js-result");
+        resultElement.innerText = text;
+  }
+
     init();
+
+
+
+
+
 }
