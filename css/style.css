@@ -15,6 +15,7 @@ html {
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Sans', sans-serif;
-    background-image: url("../jpg/img.jpg");
+    background-image: url("../jpg/currencies.jpg");
+    background-size: cover
 
 }
