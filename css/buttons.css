@@ -1,0 +1,32 @@
+.form__buttons {
+    margin-top: 15px
+ }
+
+.form__button {
+    padding-top: 2px;
+    margin-top: 2px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 100%;
+    height: 30px;
+}
+
+.form__button--count {
+    background-color: teal;
+}
+
+.form__button--count:hover {
+    background-color: hsla(180, 100%, 25%, 80%);
+}
+
+.form__button--reset {
+    background-color: #b82e2e
+}
+
+.form__button--reset:hover {
+    background-color: hsl(0, 91%, 59%)
+}
